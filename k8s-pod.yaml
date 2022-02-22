@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: europe-west2-docker.pkg.dev/johnwhitaker-sstp-515a745d/source-to-prod-demo/nginx:123
+    image: us-central1-docker.pkg.dev/johnwhitaker-sstp-515a745d/source-to-prod-demo/nginx:123
     imagePullPolicy: Always
     ports:
     - containerPort: 80
