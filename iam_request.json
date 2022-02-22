@@ -1,0 +1,13 @@
+{
+  "resource": "projects/johnwhitaker-sstp-515a745d/notes/clouddeploy_note",
+  "policy": {
+    "bindings": [
+      {
+        "role": "roles/containeranalysis.notes.occurrences.viewer",
+        "members": [
+          "serviceAccount:service-794551476149@gcp-sa-binaryauthorization.iam.gserviceaccount.com"
+        ]
+      }
+    ]
+  }
+}
